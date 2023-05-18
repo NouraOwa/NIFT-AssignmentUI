@@ -21,7 +21,7 @@ struct TabView1: View {
           }
 
         // Second tab
-          Text("")
+          FeedPage()
             .tabItem {
               Image(systemName: "rectangle.fill.on.rectangle.fill")
                 Text("Feed")

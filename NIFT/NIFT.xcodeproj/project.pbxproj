@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0389C7A12A16102E006B2095 /* StudentDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0389C7A02A16102E006B2095 /* StudentDashboard.swift */; };
+		0389C7A32A161083006B2095 /* Announsments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0389C7A22A161083006B2095 /* Announsments.swift */; };
 		03D0A5882A15A954007388C7 /* NIFTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D0A5872A15A954007388C7 /* NIFTApp.swift */; };
 		03D0A58A2A15A954007388C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D0A5892A15A954007388C7 /* ContentView.swift */; };
 		03D0A58C2A15A955007388C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D0A58B2A15A955007388C7 /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0389C7A02A16102E006B2095 /* StudentDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDashboard.swift; sourceTree = "<group>"; };
+		0389C7A22A161083006B2095 /* Announsments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announsments.swift; sourceTree = "<group>"; };
 		03D0A5842A15A954007388C7 /* NIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D0A5872A15A954007388C7 /* NIFTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIFTApp.swift; sourceTree = "<group>"; };
 		03D0A5892A15A954007388C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 				03D0A5A82A15E9AB007388C7 /* TabView.swift */,
 				03D0A5B02A15F0B4007388C7 /* SearchBar.swift */,
 				03D0A5B22A15F59E007388C7 /* CustomTF.swift */,
+				0389C7A02A16102E006B2095 /* StudentDashboard.swift */,
+				0389C7A22A161083006B2095 /* Announsments.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -201,7 +207,9 @@
 				03D0A5962A15A9F1007388C7 /* LogoPage.swift in Sources */,
 				03D0A59D2A15C808007388C7 /* OnBoarding.swift in Sources */,
 				03D0A5A12A15DABB007388C7 /* ForgetPass.swift in Sources */,
+				0389C7A32A161083006B2095 /* Announsments.swift in Sources */,
 				03D0A5B32A15F59E007388C7 /* CustomTF.swift in Sources */,
+				0389C7A12A16102E006B2095 /* StudentDashboard.swift in Sources */,
 				03D0A5A52A15E0A4007388C7 /* VerificationPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

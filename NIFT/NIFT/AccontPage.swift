@@ -42,8 +42,6 @@ struct AccontPage: View {
                 
                 
             }
-            
-        
 struct AccontPage_Previews: PreviewProvider {
     static var previews: some View {
         AccontPage()
