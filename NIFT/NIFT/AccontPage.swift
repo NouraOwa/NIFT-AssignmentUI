@@ -19,7 +19,7 @@ struct AccontPage: View {
                 .padding(.top,16)
             textFieldPass( pass: "Password")
                 .padding()
-            NavigationLink(destination: ProfilePage()) {
+            NavigationLink(destination: TabView1()) {
                 Text("LogIn")
                     .frame(maxWidth: 100, maxHeight: 6)
                     .padding()

@@ -35,14 +35,14 @@ struct VerificationPage: View {
                         .font(.callout)
                         .foregroundColor(Color.gray)
                         .padding(.trailing)
-                    NavigationLink(destination: VerificationPage()) {
+                    NavigationLink(destination: TabView1()) {
                         Text("Resend OTP")
                             .font(.callout)
                             .padding(.leading,60)
                     }
                 }
                 Spacer()
-                NavigationLink(destination: VerificationPage()) {
+                NavigationLink(destination: TabView1()) {
                     Text("Verify")
                         .frame(maxWidth: 100, maxHeight: 6)
                         .padding()

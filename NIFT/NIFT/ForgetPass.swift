@@ -28,7 +28,7 @@ struct ForgetPass: View {
                 .cornerRadius(10)
                 .padding(.leading,195)
                 
-                NavigationLink(destination: AccontPage()) {
+                NavigationLink(destination: VerificationPage()) {
                     Text("Next")
                         .frame(maxWidth: 100, maxHeight: 6)
                         .padding()

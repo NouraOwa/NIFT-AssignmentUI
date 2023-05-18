@@ -22,7 +22,7 @@ struct NewPassword: View {
                 textFieldPass(pass: "Confirm Password")
                     .padding(.top,16)
                 Spacer()
-                NavigationLink(destination: VerificationPage()) {
+                NavigationLink(destination: AccontPage()) {
                     Text("Save")
                         .frame(maxWidth: 100, maxHeight: 6)
                         .padding()

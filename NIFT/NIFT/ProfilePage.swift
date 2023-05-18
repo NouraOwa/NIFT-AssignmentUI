@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ProfilePage: View {
     var body: some View {
-        TabView1()
         VStack{
             Text("")
                 .padding(.bottom,100)
